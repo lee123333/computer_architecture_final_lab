@@ -1,0 +1,53 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(riscv.FiveStageCPUFinalTest, org.scalatest.tools.Framework$$anon$1@77d8ce51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(riscv.mycputest, org.scalatest.tools.Framework$$anon$1@77d8ce51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(riscv.FiveStageCPUStallTest, org.scalatest.tools.Framework$$anon$1@77d8ce51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(riscv.ThreeStageCPUTest, org.scalatest.tools.Framework$$anon$1@77d8ce51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(riscv.PipelineRegisterTest, org.scalatest.tools.Framework$$anon$1@77d8ce51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(riscv.FiveStageCPUForwardTest, org.scalatest.tools.Framework$$anon$1@77d8ce51, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelineRegisterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipeline Register[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to stall and flush[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFiveStageCPUForwardTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFive-stage Pipelined CPU with Forwarding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate recursively fibonacci(10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should quicksort 10 numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store and load single byte[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should solve data and control hazards[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFiveStageCPUStallTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFive-stage Pipelined CPU with Stalling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate recursively fibonacci(10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should quicksort 10 numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store and load single byte[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should solve data and control hazards[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmycputest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThree-stage Pipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate recursively fibonacci(10) and dump signature[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFiveStageCPUFinalTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFive-stage Pipelined CPU with Reduced Branch Delay[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate recursively fibonacci(10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should quicksort 10 numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store and load single byte[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should solve data and control hazards[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should test multiplication and infinite loop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should test multiplication, division, unsigned division, and remainders with an infinite loop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThreeStageCPUTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThree-stage Pipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate recursively fibonacci(10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should quicksort 10 numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store and load single byte[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should solve control hazards[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should test multiplication and infinite loop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should test multiplication, division, unsigned division, and remainders with an infinite loop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should correctly calculate the integer square root of 100[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 12 seconds, 759 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 23[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 23, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	riscv.FiveStageCPUStallTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	riscv.mycputest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	riscv.ThreeStageCPUTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	riscv.FiveStageCPUFinalTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	riscv.PipelineRegisterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	riscv.FiveStageCPUForwardTest[0m

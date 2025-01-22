@@ -1,0 +1,13 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/test3.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/test3.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/quicksort.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/quicksort.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/fibonacci.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/fibonacci.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/tetris.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/tetris.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/vga_font_8x16.bmp,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/vga_font_8x16.bmp)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/test2.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/test2.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/sb.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/sb.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/test.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/test.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/hello.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/hello.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/output.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/output.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/hazard.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/hazard.asmbin)
+[debug] 	(/home/lhh/computer_arch/final_lab/riscv-core/src/main/resources/mmio.asmbin,/home/lhh/computer_arch/final_lab/riscv-core/target/scala-2.13/classes/mmio.asmbin)

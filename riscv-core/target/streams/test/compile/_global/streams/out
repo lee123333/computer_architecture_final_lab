@@ -1,0 +1,4 @@
+[error] /home/lhh/computer_arch/final_lab/riscv-core/src/test/scala/riscv/mycputest.scala:83:33: not found: value data
+[error]         writer.printf("%08x\n", data.toLong)
+[error]                                 ^
+[error] one error found

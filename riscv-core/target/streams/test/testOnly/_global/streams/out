@@ -1,0 +1,11 @@
+[debug] Running TaskDef(riscv.mycputest, org.scalatest.tools.Framework$$anon$1@22d81cb3, false, [SuiteSelector])
+[info] mycputest:
+[info] Three-stage Pipelined CPU
+[info] - should test my cpu by using test data
+[info] Run completed in 3 seconds, 630 milliseconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	riscv.mycputest
