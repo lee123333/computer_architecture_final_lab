@@ -1,0 +1,33 @@
+
+
+.PHONY : TARGET0
+TARGET0 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/div-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/div-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/div-01.S/ref/Reference-sail_c_simulator.signature ref.elf > div-01.log 2>&1;
+
+.PHONY : TARGET1
+TARGET1 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/divu-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/divu-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/divu-01.S/ref/Reference-sail_c_simulator.signature ref.elf > divu-01.log 2>&1;
+
+.PHONY : TARGET2
+TARGET2 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/mul-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/mul-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/mul-01.S/ref/Reference-sail_c_simulator.signature ref.elf > mul-01.log 2>&1;
+
+.PHONY : TARGET3
+TARGET3 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/mulh-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/mulh-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/mulh-01.S/ref/Reference-sail_c_simulator.signature ref.elf > mulh-01.log 2>&1;
+
+.PHONY : TARGET4
+TARGET4 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/mulhsu-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/mulhsu-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/mulhsu-01.S/ref/Reference-sail_c_simulator.signature ref.elf > mulhsu-01.log 2>&1;
+
+.PHONY : TARGET5
+TARGET5 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/mulhu-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/mulhu-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/mulhu-01.S/ref/Reference-sail_c_simulator.signature ref.elf > mulhu-01.log 2>&1;
+
+.PHONY : TARGET6
+TARGET6 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/rem-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/rem-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/rem-01.S/ref/Reference-sail_c_simulator.signature ref.elf > rem-01.log 2>&1;
+
+.PHONY : TARGET7
+TARGET7 :
+	@cd /home/lhh/test_riscvof/riscof_work/src/remu-01.S/ref;riscv32-unknown-elf-gcc -march=rv32im          -static -mcmodel=medany -fvisibility=hidden -nostdlib -nostartfiles         -T /home/lhh/test_riscvof/sail_cSim/env/link.ld         -I /home/lhh/test_riscvof/sail_cSim/env/         -I /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/env -mabi=ilp32  /home/lhh/test_riscvof/riscv-arch-test/riscv-test-suite/rv32i_m/M/src/remu-01.S -o ref.elf -DTEST_CASE_1=True -DXLEN=32;riscv32-unknown-elf-objdump -D ref.elf > ref.disass;/home/lhh/sail-riscv-master/c_emulator/riscv_sim_RV32 --test-signature=/home/lhh/test_riscvof/riscof_work/src/remu-01.S/ref/Reference-sail_c_simulator.signature ref.elf > remu-01.log 2>&1;
